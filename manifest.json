@@ -1,0 +1,29 @@
+{
+
+	"manifest_version": 2,
+
+	"name": "Random Anime",
+	"description": "Random anime cuz anime is fun",
+	"version": "0.5.0",
+
+	"icons": {
+		"48": "images/icon48.png",
+		"128": "images/icon128.png"
+	},
+
+	"permissions": [
+		"storage",
+		"webRequest"
+	],
+
+	"browser_action": {
+		"browser_style": false,
+		"default_popup": "popup.html",
+		"default_icon": "images/icon48.png"
+	},
+
+	"background": {
+		"scripts": ["js/background.js"],
+		"persistent": true
+	}
+}

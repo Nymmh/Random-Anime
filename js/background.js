@@ -1,0 +1,1 @@
+var storage = chrome.storage.local;

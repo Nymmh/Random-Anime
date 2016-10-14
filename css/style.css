@@ -1,0 +1,35 @@
+@import url(http://fonts.googleapis.com/css?family=Orbitron:500);
+html, body {
+  width: 460px;
+  margin: 0px;
+  padding: 0px;
+  color: #747474;
+	/* Required for Firefox */
+	font-family: "Orbitron, bold;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+body {
+  background-color: #161616;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#RndAnimeTitle{
+	padding-left: 154px;
+}
+
+#listeners {
+	position: absolute;
+	top: 0px;
+	right: 5px;
+}
+
+#Buttons {
+	margin-bottom: 1px;
+	margin-left: 0px;
+	margin-top: 0px;
+}
